@@ -36,6 +36,14 @@ img {
     width: 100%;
 }
 
+.text-brand {
+    color: var(--color-brand);
+}
+
+.bg-base {
+    background-color: var(--color-base);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
@@ -45,6 +53,14 @@ img {
     padding-top: 80px;
     padding-bottom: 80px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 var(--color-brand);
 }
 
 .navbar {
