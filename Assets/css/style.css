@@ -145,3 +145,14 @@ img {
 .link-custom:hover::after {
     width: 100%;
 }
+
+#Contact .form-control {
+    background-color: var(--color-base);
+    border-color: var(--color-base);
+    color: var(--color-body);
+}
+
+#Contact .form-control:focus {
+    border-color: var(--color-brand);
+    box-shadow: none;
+}
